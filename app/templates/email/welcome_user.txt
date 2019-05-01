@@ -1,0 +1,3 @@
+Hello {{user.username}}
+Welcome to Pitcher!
+We have just seen you have signed up for our application and want to welcome you to the family. We wish you the very best on your pitching journey. Don't be shy, checkout what others are upto and make sure to let us know how we can help if in need. Cheers!
