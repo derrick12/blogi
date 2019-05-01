@@ -1,0 +1,32 @@
+{% macro displayPosts(posts) %}
+{% for post in posts %}
+
+<div class="container">
+  <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+    <h1>{{post.title}}</h1>
+    <br>
+    <h4>{{post.body}}</h4>
+    <br>
+    <div style="text-align:left;">
+        <a href="/view_comments/{{post.id}}" class="btn btn-info">Comment...</a>
+    </div>
+    <hr>
+  </div>
+</div>
+
+{% endfor %}
+{% endmacro %}
+
+{% macro displayComments(comments_list) %}
+{% for comment in comments_list %}
+<div class="container">
+  <div class="col-xs-12 col-sm-4 col-md-2 col-lg-12">
+    <ul>
+      <li>
+        <h4>{{comment.comment}}</h4>
+      </li>
+    </ul>
+  </div>
+</div>
+{% endfor %}
+{% endmacro %}
