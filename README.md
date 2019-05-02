@@ -40,7 +40,7 @@ This application was made using:
 ## Support and contact details
 Feel free to contact me incase of any issues at derrickwaweru@gmail.com
 
-Live website at https://blogi-21.herokuapp.com/
+Live website at https://blogi12.herokuapp.com/
 
 ## MIT License
 
