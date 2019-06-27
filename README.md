@@ -6,7 +6,7 @@ By Derrick Kariuki.
 This is an application that previews various blogs created, various articles from various sources, one is able to catch up on the latest blogs and get to read them.
 
 ## Setup/Installation Requirements
-* In order to display locally the website you will need to have both Git and a working browser preferably a chrome browser installed in your computer.
+* In order to locally run the website you will need to have both Git and a working browser preferably a chrome browser installed in your computer.
 * Clone or download the website url from my github account locally
 * Clone the repository to a local directory
 * To run the application you will need to have python3 installed in your computer
